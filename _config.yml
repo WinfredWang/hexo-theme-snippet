@@ -8,18 +8,7 @@ menu:
 - page: home
   url: /
   icon:
-- page: 前端
-  url: /categories/前端/
-  icon:
-- page: 后端
-  url: /categories/后端/
-  icon:
-- page: 工具
-  url: /categories/工具/
-  icon:
-- page: 时间轴
-  url: /archives/
-  icon:
+
 
 ## favicon
 favicon: /favicon.ico
@@ -29,19 +18,16 @@ rss: /atom.xml
 
 ## Carousel
 carousel:
-  img: img/head-img.jpg
+  img: 
 
 # 各个小工具的设置
 
 ## widgets
 widgets:
-  - search
-  - notification
   - social
   - category
   - archive
   - tagcloud
-  - friends
 
 ## 搜索
 jsonContent:
@@ -66,22 +52,13 @@ notification: |-
 social:
  - name: Github
    icon: git
-   href: //github.com/shenliyang
+   href: https://github.com/WinfredWang
  - name: 邮箱
    icon: envelope-o
-   href: mailto:snippet@91h5.cc
- - name: 联系QQ
-   icon: qq
-   href: /
- - name: 微信
-   icon: weixin
-   href: /
- - name: QQ群
-   icon: users
-   href: /
- - name: RSS
-   icon: feed
-   href: /atom.xml
+   href: mailto:wangqiyong@126.com
+ - name: 微博
+   icon: weibo
+   href: https://weibo.com/yijianzhongdi
 
 ## 文章分类设置
 cate_config:
@@ -102,11 +79,11 @@ links:
 # 主题自定义个性化配置
 
 ## 网站宣传语
-branding:
+branding: 每一天在每一方面 我都越来越好了
 
 ## 设置banner背景图片
 banner:
-    img: http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/banner.jpg
+    img: 
 
 ## 首页列表底部面板
 homePanel: true
@@ -132,7 +109,7 @@ fontAwesome:
 
 ## 文章过期提醒功能
 warning:
-  days: 300
+  days: 3000
   text: '本文于%d天之前发表，文中内容可能已经过时。'
 
 ## 文章内声明
@@ -140,7 +117,7 @@ declaration:
   enable: true
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="https://weibo.com/yijianzhongdi" target="_blank">一箭中的</a>
 
 
 ## 主题评论
@@ -155,9 +132,9 @@ gitment:
   perPage: 10
 
 ### 来必力
-livere:
-  enable: false
-  livere_uid: MTAyMC8zMzA1MS85NjEz
+livere: 
+  enable: true
+  livere_uid: MTAyMC8zOTE0Ni8xNTY3Mw==
 
 ### 友言评论(服务不稳定)
 uyan:
@@ -178,7 +155,7 @@ changyan:
 
 ## Valine评论
 valine:
-   enable: true
+   enable: false
    appId: xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz
    appKey: erIpQac4azoCmgfBB7Dl9maa
    placeholder: 说点什么吧
@@ -191,16 +168,9 @@ valine:
 ## 网站访问统计
 
 ### 网盟CNZZ统计
-cnzz_analytics: 1263868967
 
 ### 百度统计
-baidu_analytics:
-
-### 谷歌统计
-google_analytics:
-
-### 腾讯分析
-tencent_analytics:
+baidu_analytics: 3441f2d37a71135861ed9ff6906720f1
 
 ### 百度站点认证
 baidu_site_verification:
